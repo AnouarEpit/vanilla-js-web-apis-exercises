@@ -5,12 +5,13 @@ document.addEventListener("DOMContentLoaded", () =>
 
     document.addEventListener("keydown", (event) => 
     {
-        if (event.key.length === 1) { // Solo procesa teclas imprimibles
-            keys += event.key; // Añade la tecla a la cadena
+        if (event.key.length === 1) 
+        {
+            keys += event.key; 
             if (keys.length > 42) {
-                keys = keys.slice(-42); // Mantén solo los últimos 42 caracteres
+                keys = keys.slice(-42);
             }
-            footerDiv.textContent = keys; // Actualiza el contenido del div
+            footerDiv.textContent = keys;
         }
     });
 });
