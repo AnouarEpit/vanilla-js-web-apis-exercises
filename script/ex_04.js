@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () =>
         if (event.key.length === 1) 
         {
             keys += event.key; 
-            if (keys.length > 42) {
+            if (keys.length > 42) 
+            {
                 keys = keys.slice(-42);
             }
             footerDiv.textContent = keys;
