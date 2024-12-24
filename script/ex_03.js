@@ -1,17 +1,20 @@
-const footerDiv = document.querySelector('.exercice footer div');
-
-footerDiv.addEventListener('click', function() 
+document.addEventListener("DOMContentLoaded", () => 
 {
-    let name = prompt("What is your name?");
-    
-    while (!name) 
+    const footerDiv = document.querySelector("footer div"); 
+
+    footerDiv.addEventListener("click", () => {
+        let name = prompt("What is your name?");
+        while (!name) 
         {
-            name = prompt("Please enter your name. It cannot be empty.");
+            name = prompt("What is your name?"); 
         }
-        
-    if (confirm(`Are you sure "${name}" is your name?`)) 
+
+        const confirmation = confirm(`Are you sure ${name} is your name?`); 
+        if (confirmation) 
         {
-            footerDiv.textContent = `Hello ${name}!`;
-            alert(`Hello ${name}!`);
+            const greeting = `Hello ${name}!`; 
+            footerDiv.textContent = greeting;
+            alert(greeting); 
         }
+    });
 });

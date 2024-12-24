@@ -1,5 +1,8 @@
-(function() 
+document.addEventListener("DOMContentLoaded", () => 
 {
-    const footerDiv = document.querySelector('.exercice footer div');
-    footerDiv.textContent = "Hello World";
-})();
+    (function() 
+    {
+        const footerDiv = document.querySelector("footer div"); 
+        footerDiv.textContent = "Hello World"; 
+    })();
+});
