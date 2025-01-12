@@ -1,6 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const buttons = document.querySelectorAll("footer button"); // Selecciona ambos botones
-    const select = document.querySelector("footer select"); // Selecciona el menú desplegable
+document.addEventListener("DOMContentLoaded", () => 
+{
+    const buttons = document.querySelectorAll("footer button"); 
+    const select = document.querySelector("footer select"); 
     let fontSize = 16;
 
     buttons[0].addEventListener("click", () => 
