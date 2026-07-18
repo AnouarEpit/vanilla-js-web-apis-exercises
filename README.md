@@ -1,5 +1,7 @@
 # Vanilla JS Web APIs Exercises
 
+<p align="right"><sub>🇬🇧 English (this page) · <a href="#fr">🇫🇷 Français</a> · <a href="#es">🇪🇸 Español</a></sub></p>
+
 *Built between December 2024 and January 2025, during my first year at Epitech Web Academy.*
 
 This is a set of small exercises I did to actually understand what the browser gives you before reaching for a framework. No React, no jQuery, no npm install — just JavaScript, the DOM, and whatever API the exercise asked me to use. Twenty exercises, one bonus, each one a little harder than the last.
@@ -85,6 +87,7 @@ HTML, CSS, vanilla JavaScript. PHP only for the upload endpoint in exercise 20.
 
 ---
 
+<a id="fr"></a>
 <details>
 <summary>🇫🇷 Français</summary>
 
@@ -124,6 +127,7 @@ HTML, CSS, JavaScript vanilla. PHP uniquement pour l'endpoint d'upload de l'exer
 
 </details>
 
+<a id="es"></a>
 <details>
 <summary>🇪🇸 Español</summary>
 
